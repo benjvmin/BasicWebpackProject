@@ -1,0 +1,20 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "testing",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "build:prod": "webpack -p",
+    "watch": "webpack --watch"
+  },
+  "keywords": ["testing"],
+  "author": "Benjamin Taylor",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "node-sass": "^4.7.2",
+    "webpack": "^3.11.0"
+  }
+}
