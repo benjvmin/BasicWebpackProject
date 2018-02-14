@@ -10,8 +10,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const config = {
   context: path.resolve(__dirname, "src"),
   entry: {
-    app: "./js/index.js", 
-    vendor: []
+    app: "./js/index.js"
   },
   output: {
     filename: "bundle.js",
