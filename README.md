@@ -12,7 +12,8 @@ Run ```npm run build:prod``` to run webpack in production mode.
 
 
 ### Includes 
-* Basic sass compilation with node sass
+* Auto generation of HTML with HtmlWebpackPlugin.  
+* Basic ```.scss``` compilation with node-sass.
 * ES6 transpilation with Babel.
 * BrowserSync development server for multi device testing. 
 
